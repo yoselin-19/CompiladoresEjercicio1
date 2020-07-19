@@ -8,37 +8,38 @@ package analizadores;
 /** CUP generated class containing symbol constants. */
 public class sym {
   /* terminals */
-  public static final int MENOS = 6;
-  public static final int CADENA = 23;
-  public static final int IGUAL = 30;
-  public static final int DECIMAL = 22;
-  public static final int RSTRING = 28;
-  public static final int DIVIDIDO = 8;
-  public static final int RAND = 20;
+  public static final int MENOS = 7;
+  public static final int CADENA = 24;
+  public static final int IGUAL = 31;
+  public static final int DECIMAL = 23;
+  public static final int RSTRING = 29;
+  public static final int DIVIDIDO = 9;
+  public static final int RAND = 21;
   public static final int PARIZQ = 3;
-  public static final int CONCAT = 9;
+  public static final int CONCAT = 10;
   public static final int PARDER = 4;
-  public static final int UMENOS = 24;
-  public static final int MAYIGUALQUE = 15;
-  public static final int IGUALQUE = 17;
-  public static final int POR = 7;
-  public static final int DIFQUE = 16;
-  public static final int RBOOLEAN = 29;
-  public static final int RNOT = 18;
-  public static final int ROR = 19;
+  public static final int UMENOS = 25;
+  public static final int MAYIGUALQUE = 16;
+  public static final int IGUALQUE = 18;
+  public static final int POR = 8;
+  public static final int DIFQUE = 17;
+  public static final int RBOOLEAN = 30;
+  public static final int RNOT = 19;
+  public static final int ROR = 20;
+  public static final int COMA = 5;
   public static final int EOF = 0;
-  public static final int RFALSE = 11;
-  public static final int RPRINT = 25;
-  public static final int MENIGUALQUE = 14;
+  public static final int RFALSE = 12;
+  public static final int RPRINT = 26;
+  public static final int MENIGUALQUE = 15;
   public static final int error = 1;
-  public static final int MENQUE = 12;
-  public static final int IDENTIFICADOR = 31;
-  public static final int RNUMBER = 27;
-  public static final int ENTERO = 21;
-  public static final int RDECLARE = 26;
-  public static final int MAYQUE = 13;
-  public static final int RTRUE = 10;
-  public static final int MAS = 5;
+  public static final int MENQUE = 13;
+  public static final int IDENTIFICADOR = 32;
+  public static final int RNUMBER = 28;
+  public static final int ENTERO = 22;
+  public static final int RDECLARE = 27;
+  public static final int MAYQUE = 14;
+  public static final int RTRUE = 11;
+  public static final int MAS = 6;
   public static final int PTCOMA = 2;
   public static final String[] terminalNames = new String[] {
   "EOF",
@@ -46,6 +47,7 @@ public class sym {
   "PTCOMA",
   "PARIZQ",
   "PARDER",
+  "COMA",
   "MAS",
   "MENOS",
   "POR",
